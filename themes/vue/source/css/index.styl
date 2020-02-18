@@ -39,14 +39,15 @@ body
     display: inline-block
     vertical-align: top
   .left
+    float right
     width: 39%
   .right
     width: 61%
   .hero-logo
     width: 215px
     height: 215px
-    float: right
-    margin-right: 60px
+    float: left
+    margin-left: 60px
   h1
     font-weight: 300
     margin: 0
@@ -61,11 +62,10 @@ body
     margin: 1em 0
     font-size: 1.05em
     font-weight: 600
-    letter-spacing: .1em
     min-width: 8em
     text-align: center
     &:not(:last-child)
-      margin-right: 1%
+      margin-left: 1%
   .social-buttons
     list-style-type: none
     padding: 0
@@ -126,6 +126,7 @@ body
     max-width: $width
     margin: 0 auto
     text-align: center
+    direction rtl
   .point
     width: 33%
     display: inline-block
