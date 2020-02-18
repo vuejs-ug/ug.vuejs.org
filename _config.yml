@@ -139,7 +139,7 @@ offline:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: git@github.com:vuejs/vuejs.org.git
+  repository: git@github.com:vuejs-ug/ug.vuejs.org.git
 
 feed:
   type: atom
